@@ -2,10 +2,11 @@
 This repository contains solution to some computer science problems in most effecient ways I could. It also introduces you to 
 **TDD (Test Driven Development)** approach of software development which is well known to minimize bugs and security vulnerabilities.
 
-## Q1. The four adjacent digits in the 1000-digit numerals that have the greatest product are 9x9x8x9=5832(for example). Find 
+## Q1. 
+The four adjacent digits in the 1000-digit numerals that have the greatest product are 9x9x8x9=5832(for example). Find 
 the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of the product?
 
-```
+```c
 8878756113405462575236653918726828134778693925674034151
 7920137625375876563745112107265430496279395295067699468
 9563593119860008704378908986898621070005873283268716687
@@ -27,3 +28,8 @@ the thirteen adjacent digits in the 1000-digit number that have the greatest pro
 2430995753135566968510753715438054483624324193763271940
 7741909247566403472058645026267523175227666253490715607
 ```
+
+### Solution
+I will be going through the following process to get the expected solution.
+#### System Overview/Block diagram
+![UML diagram of the object; w/ private data and public API](images/block_diagram.png)
