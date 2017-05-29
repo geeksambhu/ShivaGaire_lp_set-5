@@ -33,3 +33,10 @@ the thirteen adjacent digits in the 1000-digit number that have the greatest pro
 I will be going through the following process to get the expected solution.
 #### System Overview/Block diagram
 ![UML diagram of the object; w/ private data and public API](images/block_diagram.png)
+
+## Q2
+A palindromic number reads the same both ways. The largest palindome made from the product of two 2-digit 
+number is 9009 = 91 x 99.  
+Find the largest palindrome made from the product of two 3-digit numbers.  
+![UML diagram of the object; w/ private data and public API](images/q2_block_diagram.png)
+
