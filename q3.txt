@@ -1,0 +1,18 @@
+Title: Division Calculator- Calculate The division Result
+
+Description:  In the following division calculator Input 1 and Input 2 is divisor
+When clicked on Divide button , it should perform division of two number specified
+in the two fields and should show result on result box.
+
+Precondition: The user must provide input and divisor in 'Input 2' mustn't be zero.
+              Divide by zero case must be handled 
+
+Assumption: The input must be numbers
+
+Test Steps:
+            1. Input the dividend in `Input 1` text box.
+            2. Input the divisor in `Input 2` text box.
+            3. Click the 'Divide' button.
+
+Expected Result:
+                Calculated Correct result must be displayed on `Result` text box.
