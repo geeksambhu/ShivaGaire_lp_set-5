@@ -42,5 +42,5 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 ## Q3
 
-** Test Case Scenario**  
+**Test Case Scenario**  
 For application In the division calculator Input 1 and Input 2 is divisor, When clicked on Divide button, it should perform division of two number specified in the two fields and should show result on result box.
