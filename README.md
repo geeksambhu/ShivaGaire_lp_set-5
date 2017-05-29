@@ -40,3 +40,7 @@ number is 9009 = 91 x 99.
 Find the largest palindrome made from the product of two 3-digit numbers.  
 ![UML diagram of the object; w/ private data and public API](images/q2_block_diagram.png)
 
+## Q3
+
+** Test Case Scenario**  
+For application In the division calculator Input 1 and Input 2 is divisor, When clicked on Divide button, it should perform division of two number specified in the two fields and should show result on result box.
