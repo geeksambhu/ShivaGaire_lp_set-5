@@ -1,12 +1,12 @@
 # Shiva_LP_5
 This repository contains solution to some computer science problems in most effecient ways I could. It also introduces you to 
-**TDD (Test Driven Development)** approach of software development which is well known to minimize bugs and security vulnerabilities.
+**TDD (Test Driven Development)** approach of software development which is well known to minimize bugs and security vulnerabilities. In this project I tried to use `Single Responsibility Principle` to make functions and objects more comprehensible and reusable, following OOD techniques.
 
 ## Q1. 
 The four adjacent digits in the 1000-digit numerals that have the greatest product are 9x9x8x9=5832(for example). Find 
 the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of the product?
 
-```c
+```
 8878756113405462575236653918726828134778693925674034151
 7920137625375876563745112107265430496279395295067699468
 9563593119860008704378908986898621070005873283268716687
@@ -33,13 +33,21 @@ the thirteen adjacent digits in the 1000-digit number that have the greatest pro
 I will be going through the following process to get the expected solution.
 #### System Overview/Block diagram
 ![UML diagram of the object; w/ private data and public API](images/block_diagram.png)
+#### Write Failing Test cases
+#### Write codes to make the tests go green.
+#### Refactored code
+  Making code look good, optimizing code, adding/trimming comments.
 
 ## Q2
 A palindromic number reads the same both ways. The largest palindome made from the product of two 2-digit 
 number is 9009 = 91 x 99.  
 Find the largest palindrome made from the product of two 3-digit numbers.  
+#### System Overview/Block diagram
 ![UML diagram of the object; w/ private data and public API](images/q2_block_diagram.png)
-
+#### Write Failing Test cases
+#### Write codes to make the tests go green.
+#### Refactored code
+  Making code look good, optimizing code, adding/trimming comments.
 ## Q3
 
 **Test Case Scenario**  
@@ -53,3 +61,17 @@ specified in the two fields and should show result on result box.
 A software development methodology, I prefer as a consultant to develop a Software project.
  **Agile Scrum methodology**
 
+## Execution instructions
+The programs are written in `ANSI C` and tested with `GCC version 6.3.0 20170406`.  
+**Example: In UNIX based OSes**
+```bash
+$ gcc q1.c -o q1.out
+# To run the executible
+$ ./q1.out
+
+# compiling q2.c is little bit tricky
+$ gcc q2.c -o q2.out -lm
+$ ./q2.out
+```
+## Note
+Here, the expected output is asserted rather than displaying it to `STDOUT`. So, if you desire to display the output you can use the API in any way you want.
