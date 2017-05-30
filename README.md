@@ -49,6 +49,7 @@ specified in the two fields and should show result on result box.
 
 ## Q4
 
-An app/software development methodology, I prefer as a consultant to develop a Project.  
+
+A software development methodology, I prefer as a consultant to develop a Software project.
  **Agile Scrum methodology**
 
