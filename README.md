@@ -56,10 +56,24 @@ When clicked on Divide button, it should perform division of two number
 specified in the two fields and should show result on result box.
 
 ## Q4
+If I were a project manager I would use Agile model of software development
+for the planning of web application. I would prefer to be bounded under the principles of Agile's Scrum framework.
+The steps would be: 
 
-
-A software development methodology, I prefer as a consultant to develop a Software project.
- **Agile Scrum methodology**
+    1. Gathering all the requirements/user story as a product backlog from end-users or a product owner.
+        
+    2. Breaking down of product backlogs into release backlogs and further breaking release backlogs
+       into number of sprint backlogs for each release.
+       Sprints are the short duration milestone, that ensures the project is progressing to its goal.
+      
+    3. Monitoring the project sprint using burndown chart.
+       Burndown chart helps us to know if we are in time or not with project shipping time.
+       
+    4. Organising daily Scrum meeting, to ensure everything is on track,
+       and to know the difficulties faced by team members.
+       
+    5. After each sprint , organising a Retrospective meeting to fine tune everything,
+       by testing and debugging by team members for the product to be shipped
 
 ## Execution instructions
 The programs are written in `ANSI C` and tested with `GCC version 6.3.0 20170406`.  
