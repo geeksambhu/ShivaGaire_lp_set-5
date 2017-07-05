@@ -94,6 +94,10 @@ $ ./q1.out
 # compiling q2.c is little bit tricky
 $ gcc q2.c -o q2.out -lm
 $ ./q2.out
+
+#compiling q1.py
+$python q1.py
+
 ```
 ## Note
 Here, the expected output is asserted rather than displaying it to `STDOUT`. So, if you desire to display the output you can use the API in any way you want.
