@@ -1,3 +1,12 @@
+'''
+  Author  : Shiva Gaire
+  email   : geeksambhu@gmail.com
+  License : MIT
+
+  This code is compiled with python3.5
+'''
+
+
 import re 
 import unittest
 def find(test_str):

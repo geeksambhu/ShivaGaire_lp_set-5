@@ -30,7 +30,10 @@ the thirteen adjacent digits in the 1000-digit number that have the greatest pro
 ```
 
 ### Solution
-I will be going through the following process to get the expected solution.
+
+I will be going through the following process to get the expected solution, However, the process followed here will be long. So, I have choosen **Regular Expression** with `python` to solve the problem as **regex** will make computation efficent.
+ See `q1.py` file for python implementation
+
 #### System Overview/Block diagram
 ![UML diagram of the object; w/ private data and public API](images/block_diagram.png)
 
